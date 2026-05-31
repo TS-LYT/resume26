@@ -1,0 +1,39 @@
+# CMake/build outputs
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+_deps/
+
+# Native binaries and objects
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Generated media from protocol demos
+out.h264
+out.h265
+out.mp4
+out.mkv
+out.ts
+frames/
+*.h264
+*.h265
+*.264
+*.265
+
+# Editor/OS noise
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
